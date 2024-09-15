@@ -1,0 +1,70 @@
+@import url(null.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', serif;
+    font-weight: 400;
+    background-color: #D5E1EF;
+}
+
+.container {
+    width: 320px;
+    height: 499px;
+    display: flex;
+    padding: var(--spacing-200, 16px) var(--spacing-200, 16px) var(--spacing-500, 40px) var(--spacing-200, 16px);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-300, 24px);
+    border-radius: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.05);
+}
+
+.container-image img {
+    width: 288px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+.container-text {
+    display: flex;
+    padding: 0px var(--spacing-200, 16px);
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-200, 16px);
+    align-self: stretch;
+}
+
+.container-title {
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    color: #1F314F;
+    line-height: 120%;
+    align-self: stretch;
+}
+
+.container-subtitle {
+    font-size: 15px;
+    text-align: center;
+    color: #68778D;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3685FF;
+    margin-top: 15px;
+    line-height: 1.2;
+}
+
+.attribution a {
+    color: #2C7DFA;
+    font-weight: 700;
+}
